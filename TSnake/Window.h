@@ -1,5 +1,7 @@
 #ifndef WINDOW_HEADER
 #define WINDOW_HEADER
+#include <windows.h>
+#include <iostream>
 
 class Window {
 private:

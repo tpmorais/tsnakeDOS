@@ -1,9 +1,4 @@
-#include <windows.h>
-#include <stdio.h>
-#include <ctime>
-#include <iostream>
 #include <vector>
-#include "config.h";
 
 class Rat {
 private:

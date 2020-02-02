@@ -1,12 +1,3 @@
-#include <windows.h>
-#include <conio.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <ctime>
-#include <iostream>
-#include <vector>
-#include <iostream>
-#include <thread> 
 #include "Game.h"
 
 void MovementThread(Timer* timer, Game* game, int difficult) {

@@ -1,14 +1,8 @@
-#include <windows.h>
 #include <conio.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <ctime>
-#include <iostream>
-#include <vector>
 #include <thread>
-#include "Window.h";
-#include "Rat.h";
-#include "Snake.h";
+#include "Window.h"
+#include "Rat.h"
+#include "Snake.h"
 #include "Timer.h"
 #include "Collision.h"
 
@@ -25,7 +19,7 @@ private:
     void StartGame();
     char VerifyControlKey(int, char);
     void CollisionSystem();
-    void Controller(std::thread& );
+    void Controller(std::thread&);
     void FinishGame();
 
     Rat * ptr_Rat;

@@ -1,10 +1,4 @@
 #include <windows.h>
-#include <conio.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <ctime>
-#include <iostream>
-#include <vector>
 #include "Game.h"
 
 Rat::Rat() {

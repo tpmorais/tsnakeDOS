@@ -1,11 +1,6 @@
 #include <windows.h>
-#include <conio.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <ctime>
 #include <iostream>
-#include <vector>
-#include "Snake.h";
+#include "Snake.h"
 
 Snake::Snake() {
 	m_XvectorPosition.resize(25);

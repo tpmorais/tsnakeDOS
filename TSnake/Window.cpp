@@ -1,9 +1,4 @@
-#include <windows.h>
-#include <stdio.h>
-#include <ctime>
-#include <iostream>
-
-#include "Window.h";
+#include "Window.h"
 
 Window::Window() {
     HWND console = GetConsoleWindow();
