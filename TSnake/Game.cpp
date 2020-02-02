@@ -13,7 +13,7 @@ void MovementThread(Timer* timer, Game* game, int difficult) {
     timer->Start();
     while (timer->CheckStatus() == true) {
         if (timer->ElapsedMilliseconds() > difficult) {
-            game->Move();
+            game->Update();
             timer->Start();
         }
     }
@@ -140,7 +140,7 @@ void Game::CollisionSystem() {
     }
 }
 
-void Game::Move() {
+void Game::Update() {
     ptr_Snake->Move(m_collider, m_keyDirection, m_XscreenSize, m_YscreenSize, m_screenPrintControl);
     CollisionSystem();
     for (int k_loop = 0; k_loop <= ptr_Snake->GetSize(); k_loop++) {

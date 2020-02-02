@@ -36,6 +36,6 @@ private:
 public:
     Game();
     ~Game();
-    void Move();
+    void Update();
 
 };
